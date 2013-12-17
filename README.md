@@ -14,11 +14,11 @@ Example Usage:
 ---------------------------------------------------------
 
 As a standalone script:
-`
+```php
 $ldap = new SimpleLDAP();
 $ldap->config = include('../config/simple-ldap.php');
 $ldap->authenticate('jdoe', 'CORP', 'somepassword');
-`
+```
 
 
 Requirements:
